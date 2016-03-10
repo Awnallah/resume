@@ -170,6 +170,12 @@ var work = {
 
 var projects = {
     "projects": [{
+        "title": "Frogger Game: Love, Despite the Bugs!",
+        "url"  : '"game/index.html" target="_blank"',
+        "dates": "March 2016",
+        "description": "Built this project using object-oriented JavaScript as part of the front-End Developer Nanodegree.",
+        "images": "#"
+    }, {
         "title": "Preliminary Safety Analysis Report",
         "dates": "fall 2015",
         "description": "Evaluated in a team NuScale’s implementation of “10 C.F.R.” codes and developed a PSAR as a project for the safety course, complemented by different NRC mock interviews and a public meeting.",
@@ -196,6 +202,9 @@ var projects = {
             if (projects.projects[project].hasOwnProperty("title")) {
 
                 var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+                if(projects.projects[project].hasOwnProperty("url")){
+                    formattedProjectTitle = formattedProjectTitle.replace('"#"', projects.projects[project].url);
+                }
                 var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
                 var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
                 var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[project].images);
