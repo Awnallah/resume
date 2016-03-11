@@ -170,7 +170,7 @@ var work = {
 
 var projects = {
     "projects": [{"title": "Website Optimizaiton",
-        "url"  : '"//awnallah.github.iofrontend-nanodegree-mobile-portfolio/" target="_blank"',
+        "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
         "dates": "March 2016",
         "description": "Optimizing a given website to a PageSpeed Insights score above 90 for mobile and desktop. Optimization is currently in progress!",
         "images": "#"
