@@ -177,7 +177,7 @@ var projects = {
 
     }, {
         "title": "Frogger Game: Love, Despite the Bugs!",
-        "url"  : '"game/index.html" target="_blank"',
+        "url"  : '"http://awnallah.github.io/frontend-nanodegree-arcade-game" target="_blank"',
         "dates": "March 2016",
         "description": "Built this project using object-oriented JavaScript as part of the front-End Developer Nanodegree.",
         "images": "#"
