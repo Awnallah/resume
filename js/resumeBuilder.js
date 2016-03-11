@@ -169,7 +169,13 @@ var work = {
 
 
 var projects = {
-    "projects": [{
+    "projects": [{"title": "Website Optimizaiton",
+        "url"  : '"WebsiteOptimization/index.html" target="_blank"',
+        "dates": "March 2016",
+        "description": "Optimizing a given website to a PageSpeed Insights score above 90 for mobile and desktop. Optimization is currently in progress!",
+        "images": "#"
+
+    }, {
         "title": "Frogger Game: Love, Despite the Bugs!",
         "url"  : '"game/index.html" target="_blank"',
         "dates": "March 2016",
