@@ -46,7 +46,7 @@ var bio = {
         $("#topContacts").append(formattedGithub);
         $("#topContactsr").append(formattedLocation);
         $("#header").append(formattedPic);
-        $("#header").append(formattedWelcome);
+       // $("#header").append(formattedWelcome);
         $("#header").append(HTMLskillsStart);
         for (var skill in bio.skills) {
             if (typeof bio.skills[skill] === "string") {
