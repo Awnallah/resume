@@ -13,7 +13,7 @@ This is empty on purpose! Your code to build the resume will go here.
  */
 var bio = {
     "name": "Hamzah Awnallah",
-    "role": "Front-End Developer",
+    "role": "",
     "contacts": {
         "mobile": "510-990-7674",
         "email": "hamzah.awn@berkeley.edu",
@@ -169,13 +169,15 @@ var work = {
 
 
 var projects = {
-    "projects": [{"title": "Website Optimizaiton",
-        "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
-        "dates": "March 2016",
-        "description": "Optimizing a given website to a PageSpeed Insights score above 90 for mobile and desktop. Optimization is currently in progress!",
-        "images": "#"
+    "projects": [
+    // {"title": "Website Optimizaiton",
+    //     "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
+    //     "dates": "March 2016",
+    //     "description": "Optimizing a given website to a PageSpeed Insights score above 90 for mobile and desktop. Optimization is currently in progress!",
+    //     "images": "#"
 
-    }, {
+    // },
+    {
         "title": "Frogger Game: Love, Despite the Bugs!",
         "url"  : '"http://awnallah.github.io/frontend-nanodegree-arcade-game" target="_blank"',
         "dates": "March 2016",
