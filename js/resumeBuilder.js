@@ -170,39 +170,49 @@ var work = {
 
 var projects = {
     "projects": [
-    // {"title": "Website Optimizaiton",
-    //     "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
-    //     "dates": "March 2016",
-    //     "description": "Optimizing a given website to a PageSpeed Insights score above 90 for mobile and desktop. Optimization is currently in progress!",
-    //     "images": "#"
+    {"title": "Neighborhood Map Project ",
+        "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
+        "dates": "April 2016",
+        "description": "Developed interactive, single-page, and responsive map application showing details about upcoming running and hiking events in a selected area. <br>" +
+                        'Utilized Knockout JS (MVVM), Google Maps API, and AJAX requests (Meetup and Forecast).',
+        "images": ['images/map1.png', 'images/map2.png']
 
-    // },
+    },
+    {"title": "Website Optimizaiton",
+        "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
+        "dates": "April 2016",
+        "description": "Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
+                        'Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
+        "images": ['images/optimize1.png', 'images/optimize2.png']
+
+    },
     {
         "title": "Frogger Game: Love, Despite the Bugs!",
         "url"  : '"http://awnallah.github.io/frontend-nanodegree-arcade-game" target="_blank"',
         "dates": "March 2016",
-        "description": "Built this project using object-oriented JavaScript as part of the front-End Developer Nanodegree.",
-        "images": "#"
+        "description": " Built a clone of the classic Frogger game, using the game engine provided by Udacity.<br>" +
+                        'Applied Object-oriented JavaScript to create pseudo classes of entities in the game.',
+        "images": ["images/game1.png", 'images/game2.png']
     }, {
         "title": "Preliminary Safety Analysis Report",
         "dates": "fall 2015",
         "description": "Evaluated in a team NuScale’s implementation of “10 C.F.R.” codes and developed a PSAR as a project for the safety course, complemented by different NRC mock interviews and a public meeting.",
-        "images": "#"
+        "images": []
     }, {
         "title": "Polonium-210 Chemical Separation",
         "dates": "spring 2015",
         "description": "Dissolved various fish samples and chemically separated Po-210 for quantitative analysis by alpha radiation measurement.",
-        "images": "#"
+        "images": []
     }, {
         "title": "Proton Eye Treatment Dose Distribution Simulation",
         "dates": "spring 2015",
         "description": "Simulated proton eye treatment model using MCNP to determine vertical and lateral dose distribution.",
-        "images": "#"
+        "images": []
     }, {
         "title": "Hair Analysis",
         "dates": "spring 2012",
         "description": "Completed a special course study in chemistry where hair analysis of metals was completed using High Performance Liquid Chromatography (HPLC) and Atomic Absorption Spectroscopy (AAS).",
-        "images": "#"
+        "images": []
     }],
     "display": function() {
 
@@ -215,7 +225,7 @@ var projects = {
                 }
                 var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
                 var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
-                var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[project].images);
+              //  var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[project].images);
 
                 $("#projects").append(HTMLprojectStart);
                 $("#projects").append(formattedProjectTitle);
@@ -223,9 +233,14 @@ var projects = {
                 $("#projects").append(formattedProjectDescription);
                 //$("#projects").append(formattedProjectImage);
 
-                if (projects.projects[project].images.length > 3) {
+                // if (projects.projects[project].images.length > 3) {
+                //     $("#projects").append(formattedProjectImage);
+                // }
+
+                projects.projects[project].images.forEach(function (image){
+                    var formattedProjectImage = HTMLprojectImage.replace("%data%", image);
                     $("#projects").append(formattedProjectImage);
-                }
+                });
 
             }
         }
