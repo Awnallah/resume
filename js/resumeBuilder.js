@@ -175,7 +175,7 @@ var projects = {
         "dates": "April 2016",
         "description": "Developed interactive, single-page, and responsive map application showing details about upcoming running and hiking events in a selected area. <br>" +
                         'Utilized Knockout JS (MVVM), Google Maps API, and AJAX requests (Meetup and Forecast).',
-        "images": ['images/map1.png', 'images/map2.png']
+        "images": ['images/map1.PNG', 'images/map2.PNG']
 
     },
     {"title": "Website Optimizaiton",
@@ -183,7 +183,7 @@ var projects = {
         "dates": "April 2016",
         "description": "Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
                         'Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
-        "images": ['images/optimize1.png', 'images/optimize2.png']
+        "images": ['images/optimize1.PNG', 'images/optimize2.PNG']
 
     },
     {
@@ -192,7 +192,7 @@ var projects = {
         "dates": "March 2016",
         "description": " Built a clone of the classic Frogger game, using the game engine provided by Udacity.<br>" +
                         'Applied Object-oriented JavaScript to create pseudo classes of entities in the game.',
-        "images": ["images/game1.png", 'images/game2.png']
+        "images": ["images/game1.PNG", 'images/game2.PNG']
     }, {
         "title": "Preliminary Safety Analysis Report",
         "dates": "fall 2015",
