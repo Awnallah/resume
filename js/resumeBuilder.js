@@ -175,7 +175,7 @@ var projects = {
         "dates": "April 2016",
         "description": "Developed interactive, single-page, and responsive map application showing details about upcoming running and hiking events in a selected area. <br>" +
                         'Utilized Knockout JS (MVVM), Google Maps API, and AJAX requests (Meetup and Forecast).',
-        "images": ['images/map1.PNG', 'images/map2.PNG']
+        "images": ['images/map.PNG']
 
     },
     {"title": "Website Optimizaiton",
@@ -183,7 +183,7 @@ var projects = {
         "dates": "April 2016",
         "description": "Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
                         'Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
-        "images": ['images/optimize1.PNG', 'images/optimize2.PNG']
+        "images": ['images/optimize.PNG']
 
     },
     {
@@ -192,7 +192,7 @@ var projects = {
         "dates": "March 2016",
         "description": " Built a clone of the classic Frogger game, using the game engine provided by Udacity.<br>" +
                         'Applied Object-oriented JavaScript to create pseudo classes of entities in the game.',
-        "images": ["images/game1.PNG", 'images/game2.PNG']
+        "images": ["images/game1.PNG"]
     }, {
         "title": "Preliminary Safety Analysis Report",
         "dates": "fall 2015",
@@ -256,15 +256,3 @@ work.display();
 projects.display();
 $("#mapDiv").append(googleMap);
 
-
-// $("#main").append(internationalizeButton);
-// inName(bio.name);
-
-// function inName (name){
-// 	name = name.toLowerCase();
-// 	names = name.split(" ");
-// 	names[0] = names[0].slice(0,1).toUpperCase() + names[0].slice(1);
-// 	names[1] = names[1].toUpperCase();
-// 	name = names.join(" ");
-// 	console.log(name)
-// }
