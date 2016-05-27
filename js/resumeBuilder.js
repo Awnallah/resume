@@ -183,7 +183,7 @@ var projects = {
         "dates": "April 2016",
         "description": "Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
                         'Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
-        "images": ['images/optimize.PNG']
+        "images": ['images/optimize.png']
 
     },
     {
