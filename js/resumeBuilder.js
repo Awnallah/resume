@@ -21,7 +21,7 @@ var bio = {
         "location": "Richmond, CA"
     },
     "welcomemessage": "I'm glad to see you in my page",
-    "skills": ["JavaScript", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "MCNP", "RELAP5"],
+    "skills": ["JavaScript", "Python", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "MCNP", "RELAP5"],
     "biopic": "images/my_image.jpg",
     "display": function() {
 
