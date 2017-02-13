@@ -119,11 +119,11 @@ var work = {
         "url": '"http://www.sfwater.org/" target="_blank"',
         "location": "San Francisco, CA",
         "dates": "October 2016 - Present",
-        "description": "Led the risk management for the WSIP (Water System Improvement Program) and SSIP (Sewer System Improvement program). <br>" +
-            "Facilitated risk register meetings with PM’s, PE’s, construction managers, resident engineers and contractors. <br>" +
-            "Ran Monte Carlo simulations of risks in ARM (Active Risk Manager) and generated S-Curves, showing confidence levels for contingency values. <br>" +
-            "Prepared cover letters for the WSIP and SSIP programs. <br>" +
-            "Tracked and summarized trends and change orders of projects."
+        "description": "• Led the risk management for the WSIP (Water System Improvement Program) and SSIP (Sewer System Improvement program). <br>" +
+            "• Facilitated risk register meetings with PM’s, PE’s, construction managers, resident engineers and contractors. <br>" +
+            "• Ran Monte Carlo simulations of risks in ARM (Active Risk Manager) and generated S-Curves, showing confidence levels for contingency values. <br>" +
+            "• Prepared cover letters for the WSIP and SSIP programs. <br>" +
+            "• Tracked and summarized trends and change orders of projects."
 
     },
     {
@@ -132,9 +132,9 @@ var work = {
         "url": '"http://www.sfwater.org/" target="_blank"',
         "location": "San Francisco, CA",
         "dates": "June-September, 2016",
-        "description": "Automated generating appropriations tracking spreadsheet reports in python. <br>" +
-            "Prepared cover letters for the WSIP and SSIP programs. <br>" +
-            "Structured data in readable and maintainable format."
+        "description": "• Automated generating appropriations tracking spreadsheet reports in python. <br>" +
+            "• Prepared cover letters for the WSIP and SSIP programs. <br>" +
+            "• Structured data in readable and maintainable format."
 
     },
     {
@@ -143,26 +143,26 @@ var work = {
         "url": '"http://www.lbl.gov/" target="_blank"',
         "location": "Berkeley, CA",
         "dates": "summer 2015",
-        "description": "Calibrated X-ray machine, irradiated breast cells, and measured the dose. <br>" +
-            " Oversaw data collection by adjusting focus and taking pictures of cells using a microscope."
+        "description": "• Calibrated X-ray machine, irradiated breast cells, and measured the dose. <br>" +
+            "• Oversaw data collection by adjusting focus and taking pictures of cells using a microscope."
     }, {
         "employer": "University of California, Berkeley ",
         "title": "Research Assistant in Nuclear Forensics",
         "url": '"http://metadata.berkeley.edu/nuclear-forensics/" target="_blank"',
         "location": "Berkeley, CA",
         "dates": "summer 2014",
-        "description": "Assembled a nuclear material property archive through data mining and web searching.<br>" +
-            "Manipulated common reactors fuel inventories and burn-ups in SCALE and analyzed results.<br>" +
-            "Presented the project at the National Conference Center in Washington D.C. to sponsors, Homeland security."
+        "description": "• Assembled a nuclear material property archive through data mining and web searching.<br>" +
+            "• Manipulated common reactors fuel inventories and burn-ups in SCALE and analyzed results.<br>" +
+            "• Presented the project at the National Conference Center in Washington D.C. to sponsors, Homeland security."
     }, {
         "employer": "Jose Valdez Math Institute ",
         "title": "Math Tutor",
         "url": '"http://www.josevaldesmath.org/" target="_blank"',
         "location": "Stockton, CA ",
         "dates": "summer 2012",
-        "description": "Tutored and held exercise sessions for students on a full time basis.<br>" +
-            "Contributed to lecture material preparation.<br>" +
-            "Organized and oversaw math competitions for students and managed different activities."
+        "description": "• Tutored and held exercise sessions for students on a full time basis.<br>" +
+            "• Contributed to lecture material preparation.<br>" +
+            "• Organized and oversaw math competitions for students and managed different activities."
     }],
     "display": function() {
 
@@ -197,16 +197,16 @@ var projects = {
     {"title": "Neighborhood Map Project ",
         "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
         "dates": "April 2016",
-        "description": "Developed interactive, single-page, and responsive map application showing details about upcoming running and hiking events in a selected area. <br>" +
-                        'Utilized Knockout JS (MVVM), Google Maps API, and AJAX requests (Meetup and Forecast).',
+        "description": "• Developed interactive, single-page, and responsive map application showing details about upcoming running and hiking events in a selected area. <br>" +
+                        '• Utilized Knockout JS (MVVM), Google Maps API, and AJAX requests (Meetup and Forecast).',
         "images": ['images/map.PNG']
 
     },
     {"title": "Website Optimizaiton",
         "url"  : '"http://awnallah.github.io/frontend-nanodegree-mobile-portfolio" target="_blank"',
         "dates": "April 2016",
-        "description": "Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
-                        'Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
+        "description": "• Optimized critical rendering path of given websites by eliminating forced re-flow, and other types of jank. <br>" +
+                        '• Compressed resources using Grunt and achieved a PageSpeed Insights score above 90 for each sub-page.',
         "images": ['images/optimize.png']
 
     },
@@ -214,28 +214,28 @@ var projects = {
         "title": "Frogger Game: Love, Despite the Bugs!",
         "url"  : '"http://awnallah.github.io/frontend-nanodegree-arcade-game" target="_blank"',
         "dates": "March 2016",
-        "description": " Built a clone of the classic Frogger game, using the game engine provided by Udacity.<br>" +
-                        'Applied Object-oriented JavaScript to create pseudo classes of entities in the game.',
+        "description": "• Built a clone of the classic Frogger game, using the game engine provided by Udacity.<br>" +
+                        '• Applied Object-oriented JavaScript to create pseudo classes of entities in the game.',
         "images": ["images/game1.PNG"]
     }, {
         "title": "Preliminary Safety Analysis Report",
         "dates": "fall 2015",
-        "description": "Evaluated in a team NuScale’s implementation of “10 C.F.R.” codes and developed a PSAR as a project for the safety course, complemented by different NRC mock interviews and a public meeting.",
+        "description": "• Evaluated in a team NuScale’s implementation of “10 C.F.R.” codes and developed a PSAR as a project for the safety course, complemented by different NRC mock interviews and a public meeting.",
         "images": []
     }, {
         "title": "Polonium-210 Chemical Separation",
         "dates": "spring 2015",
-        "description": "Dissolved various fish samples and chemically separated Po-210 for quantitative analysis by alpha radiation measurement.",
+        "description": "• Dissolved various fish samples and chemically separated Po-210 for quantitative analysis by alpha radiation measurement.",
         "images": []
     }, {
         "title": "Proton Eye Treatment Dose Distribution Simulation",
         "dates": "spring 2015",
-        "description": "Simulated proton eye treatment model using MCNP to determine vertical and lateral dose distribution.",
+        "description": "• Simulated proton eye treatment model using MCNP to determine vertical and lateral dose distribution.",
         "images": []
     }, {
         "title": "Hair Analysis",
         "dates": "spring 2012",
-        "description": "Completed a special course study in chemistry where hair analysis of metals was completed using High Performance Liquid Chromatography (HPLC) and Atomic Absorption Spectroscopy (AAS).",
+        "description": "• Completed a special course study in chemistry where hair analysis of metals was completed using High Performance Liquid Chromatography (HPLC) and Atomic Absorption Spectroscopy (AAS).",
         "images": []
     }],
     "display": function() {
