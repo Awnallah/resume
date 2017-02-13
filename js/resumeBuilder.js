@@ -21,7 +21,7 @@ var bio = {
         "location": "Richmond, CA"
     },
     "welcomemessage": "I'm glad to see you in my page",
-    "skills": ["JavaScript", "Python", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "MCNP", "RELAP5"],
+    "skills": ["JavaScript", "Python", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "ARM(Active Risk Manager)","P6 Primavera" ,  "MCNP", "RELAP5"],
     "biopic": "images/my_image.jpg",
     "display": function() {
 
@@ -114,6 +114,30 @@ var education = {
 
 var work = {
     "jobs": [{
+        "employer": "San Francisco Public Utilities Commission via CM Pros",
+        "title": "Risk Analyst/ Program Controls Analyst",
+        "url": '"http://www.sfwater.org/" target="_blank"',
+        "location": "San Francisco, CA",
+        "dates": "October 2016 - Present",
+        "description": "Led the risk management for the WSIP (Water System Improvement Program) and SSIP (Sewer System Improvement program). <br>" +
+            "Facilitated risk register meetings with PM’s, PE’s, construction managers, resident engineers and contractors. <br>" +
+            "Ran Monte Carlo simulations of risks in ARM (Active Risk Manager) and generated S-Curves, showing confidence levels for contingency values. <br>" +
+            "Prepared cover letters for the WSIP and SSIP programs. <br>" +
+            "Tracked and summarized trends and change orders of projects."
+
+    },
+    {
+        "employer": "San Francisco Public Utilities Commission",
+        "title": "Programmer Analyst Intern",
+        "url": '"http://www.sfwater.org/" target="_blank"',
+        "location": "San Francisco, CA",
+        "dates": "June-September, 2016",
+        "description": "Automated generating appropriations tracking spreadsheet reports in python. <br>" +
+            "Prepared cover letters for the WSIP and SSIP programs. <br>" +
+            "Structured data in readable and maintainable format."
+
+    },
+    {
         "employer": "Lawrence Berkeley National Lab",
         "title": "Research Assistant in Low Dose Radiation",
         "url": '"http://www.lbl.gov/" target="_blank"',
