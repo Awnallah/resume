@@ -194,6 +194,25 @@ var work = {
 
 var projects = {
     "projects": [
+    {"title": "Trading Agent (Q-Learner)  ",
+        "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
+        "dates": "December 2017",
+        "description": "• Implemented a Q-Learner, including a dyna-Q in python. <br>" +
+                        "• Designed a market simulation environment, which takes in an order book (set of trades) and returns portfolio statistics . <br>" +
+                        "• Developed a pipeline for technical indicators. <br>" +
+                        "• Developed a learning environment for the Q-Learner, where technical indicators are discretized and a reward is given based on an action. <br>",
+        "images": ['images/impact.PNG']
+
+    },
+    {"title": "Tree Learners",
+        "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
+        "dates": "December 2017",
+        "description": "• Implemented a Decision Tree Learner based on Quinlan's in python. <br>" +
+                        "• Implemented a Random Decision Tree Learner based on Cutler's in python . <br>" +
+                        "• Applied bagging, where manay learners were applied. <br>",
+        "images": ['images/Figure_bags.PNG']
+
+    },
     {"title": "Neighborhood Map Project ",
         "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
         "dates": "April 2016",
