@@ -21,7 +21,11 @@ var bio = {
         "location": "Richmond, CA"
     },
     "welcomemessage": "I'm glad to see you in my page",
+<<<<<<< HEAD
     "skills": ["JavaScript", "Python", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "ARM(Active Risk Manager)","P6 Primavera"],
+=======
+    "skills": ["Python", "JavaScript", "HTML", "CSS", "jQuery", "Knockout JS", "Bootstrap" , "MATLAB", "ARM(Active Risk Manager)","P6 Primavera" ,  "MCNP", "RELAP5"],
+>>>>>>> master
     "biopic": "images/my_image.jpg",
     "display": function() {
 
@@ -66,7 +70,16 @@ var bio = {
 
 
 var education = {
-    "schools": [{
+    "schools": [
+    {
+        "name": "Georgia Tech",
+        "location": "Berkeley, CA",
+        "degree": "M.S.",
+        "majors": ["Computer Science"],
+        "dates": "In Progress",
+        "url": '"https://www.omscs.gatech.edu/current-courses" target="_blank"'
+    },
+    {
         "name": "UC Berkeley",
         "location": "Berkeley, CA",
         "degree": "B.S.",
@@ -82,30 +95,46 @@ var education = {
     }],
     "display": function() {
 
-        var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[0].name);
-        formattedSchoolName = formattedSchoolName.replace('"#"', education.schools[0].url);
-        var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[0].degree);
-        var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[0].dates);
-        var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[0].location);
-        var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[0].majors);
+
+        function colleges(){
+            for (var school in education.schools) {
+                if (education.schools[school].hasOwnProperty("name")) {
+                //var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+
+
+                    var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[school].name);
+                    formattedSchoolName = formattedSchoolName.replace('"#"', education.schools[school].url);
+                    var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[school].degree);
+                    var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
+                    var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
+                    var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
+
+                    $("#education").append(HTMLschoolStart);
+                    $("#education").append(formattedSchoolName);
+                    $("#education").append(formattedSchoolDegree);
+                    $("#education").append(formattedSchoolDates);
+                    $("#education").append(formattedSchoolLocation);
+                    $("#education").append(formattedSchoolMajor);
+                }
+            }
+
+    }
+    colleges();
+
 
         var formattedOnTitle = HTMLonlineTitle.replace("%data%", education.OnlineCourses[0].title);
         var formattedOnSchool = HTMLonlineSchool.replace("%data%", education.OnlineCourses[0].school);
         var formattedOnDates = HTMLonlineDates.replace("%data%", education.OnlineCourses[0].date);
         formattedOnTitle = formattedOnTitle.replace('"#"', education.OnlineCourses[0].url);
 
-        $("#education").append(HTMLschoolStart);
-        $("#education").append(formattedSchoolName);
-        $("#education").append(formattedSchoolDegree);
-        $("#education").append(formattedSchoolDates);
-        $("#education").append(formattedSchoolLocation);
-        $("#education").append(formattedSchoolMajor);
-
         $("#education").append(HTMLonlineClasses);
         $("#education").append(formattedOnTitle);
         $("#education").append(formattedOnSchool);
         $("#education").append(formattedOnDates);
         //$("#education").append(formattedOnURL);
+
+
+
 
     }
 };
@@ -194,6 +223,25 @@ var work = {
 
 var projects = {
     "projects": [
+    {"title": "Trading Agent (Q-Learner)  ",
+        "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
+        "dates": "November 2017",
+        "description": "• Implemented a Q-Learner, including a dyna-Q in python. <br>" +
+                        "• Designed a market simulation environment, which takes in an order book (set of trades) and returns portfolio statistics . <br>" +
+                        "• Developed a pipeline for technical indicators. <br>" +
+                        "• Developed a learning environment for the Q-Learner, where technical indicators are discretized and a reward is given based on an action. <br>",
+        "images": ['images/impact.PNG']
+
+    },
+    {"title": "Tree Learners",
+        "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
+        "dates": "October 2017",
+        "description": "• Implemented a Decision Tree Learner based on Quinlan's in python. <br>" +
+                        "• Implemented a Random Decision Tree Learner based on Cutler's in python . <br>" +
+                        "• Applied bagging, where manay learners were applied. <br>",
+        "images": ['images/Figure_bags.PNG']
+
+    },
     {"title": "Neighborhood Map Project ",
         "url"  : '"http://awnallah.github.io/MapProject/" target="_blank"',
         "dates": "April 2016",
